@@ -177,6 +177,30 @@ https://templatemo.com/tm-516-known
     width: 100%;
     height: 390px;
   }
+   
+
+
+  .li-space-lg li
+  {
+
+    display:inline-block;
+    margin-right: 1rem ;
+
+  }
+   .li-space-lg .fas,
+   .li-space-lg .fab {
+    color:white !important;
+    font-size: 0.875rem;
+    margin-right: 0.5 rem;
+    }
+    .fa.icon-white {
+      color: white;
+      }
+
+
+
+  
+ 
 
 
 
@@ -683,7 +707,7 @@ https://templatemo.com/tm-516-known
   -----------------------------------------*/
 
   #contact {
-    background:#5d4c6b7a;
+    background:#243556;
   }
 
   #contact h2 {
@@ -731,6 +755,10 @@ https://templatemo.com/tm-516-known
     color: #ffffff;
   }
   
+  #contact li
+  {
+    font-size:  1.6rem;
+  }
 
 
 
@@ -739,8 +767,8 @@ https://templatemo.com/tm-516-known
   -----------------------------------------*/
 
   footer {
-    background:#243556;
-    padding: 75px 0;
+    background:white;
+    padding: 35px 0;
   }
 
   footer .section-title {
@@ -753,11 +781,11 @@ https://templatemo.com/tm-516-known
 
   footer a,
   footer p {
-    color: #ffffff;
+    color: black;
   }
 
   footer strong {
-    color: #ffffff;
+    color: black;
   }
 
   footer address p {
@@ -773,7 +801,7 @@ https://templatemo.com/tm-516-known
   }
 
   .footer-info h2 {
-    color: #ffffff;
+    color: black;
     padding: 0;
   }
 
@@ -858,6 +886,34 @@ https://templatemo.com/tm-516-known
   }
 
   .social-icon li a:hover {
+    background: #ee725f;
+    color: #ffffff;
+  }
+
+  .contact-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact-icon li {
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 5px;
+  }
+
+  .contact-icon li a {
+  
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    margin: 5px 5px 5px 0;
+  }
+
+  .contact-icon li a:hover {
     background: #ee725f;
     color: #ffffff;
   }
